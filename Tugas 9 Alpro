@@ -11,12 +11,13 @@ print (
 4. Super Supreme Chicken 
 """)
 
-pizza_crust = int(input("Pilih Varian Pizza : "))
-if pizza_crust == 1 :
+pizza_varian = int(input("Pilih Varian Pizza : "))
+if pizza_varian == 1 :
     print (" Frankfurter BBQ ")
-elif pizza_crust == 2 : 
+elif pizza_varian == 2 : 
     print (" Meat Monstan ")
-elif pizza_crust == 3 :
+elif pizza_varian == 3 :
     print (" Super Supreme ")
-elif pizza_crust == 4 :
+elif pizza_varian == 4 :
     print (" Super Supreme Chicken ")
+
