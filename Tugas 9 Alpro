@@ -1,1 +1,22 @@
-Kelompok 6 : """ 1. 23091397148-Sekar Hanum Anastasya Karaynto  2. 23091397155-Firza Mushermansyah  3. 23091397162-Akhmad Fauzi"""
+Kelompok 6 : """ 
+1. 23091397148-Sekar Hanum Anastasya Karyanto  
+2. 23091397155-Firza Mushermansyah  
+3. 23091397162-Akhmad Fauzi
+"""
+print (
+    """
+1. Frankfurter BBQ  
+2. Meat Monstan
+3. Super Supreme 
+4. Super Supreme Chicken 
+""")
+
+pizza_crust = int(input("Pilih Varian Pizza : "))
+if pizza_crust == 1 :
+    print (" Frankfurter BBQ ")
+elif pizza_crust == 2 : 
+    print (" Meat Monstan ")
+elif pizza_crust == 3 :
+    print (" Super Supreme ")
+elif pizza_crust == 4 :
+    print (" Super Supreme Chicken ")
