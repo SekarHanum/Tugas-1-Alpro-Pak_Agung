@@ -3,6 +3,7 @@ Kelompok 6 : """
 2. 23091397155-Firza Mushermansyah  
 3. 23091397162-Akhmad Fauzi
 """
+
 #Daftar Menu Varian Pizza
 print ( 
     """
@@ -98,3 +99,49 @@ if pizza_crust == 3 :
     elif pizza_ukuran == 3 :
         pizza_ukuran = "Large"
         total_harga = 155_455
+
+# program menghitung jika memilih crust Chessy Bites
+if pizza_crust == 4 :
+    pizza_crust = "Chessy Bites"
+    # jika ukuran personal
+    if pizza_ukuran == 1 :
+        pizza_ukuran = "Personal"
+        total_harga = 57_273
+    # jika ukuran reguler
+    elif pizza_ukuran == 2 : 
+        pizza_ukuran = "Reguler"
+        total_harga = 123_637
+    # jika ukuran large 
+    elif pizza_ukuran == 3 :
+        pizza_ukuran = "Large"
+        total_harga = 164_546
+
+# program menghitung jika memilih crust Crown Crust 
+if pizza_crust == 5 :
+    pizza_crust = "Crown Crust"
+    # jika ukuran personal
+    if pizza_ukuran == 1 :
+        pizza_ukuran = "Personal"
+        total_harga = 55_455
+    # jika ukuran reguler
+    elif pizza_ukuran == 2 : 
+        pizza_ukuran = "Reguler"
+        total_harga = 120_910
+    # jika ukuran large 
+    elif pizza_ukuran == 3 :
+        pizza_ukuran = "Large"
+        total_harga = 160_000
+
+# total harga varian yang dipilih
+print ("Total Harga : Rp.", total_harga , ("\n"))
+
+# program jika pakai Extra Cheese
+exstra_cheese = input("Apakah Mau Tambah Extra Cheese (y/t) ?")
+if exstra_cheese == "y" :
+    exstra_cheese = True
+    total_harga += 13_636
+elif exstra_cheese == "t" : 
+    exstra_cheese = False
+
+# total harga akhir
+print ("Total Harga Jika Menambah : Rp. ", total_harga) 
