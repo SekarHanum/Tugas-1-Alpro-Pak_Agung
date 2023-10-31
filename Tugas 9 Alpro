@@ -35,3 +35,66 @@ print (
 5. Crown Crust
 """)
  
+# Daftar Ukuran
+print (
+    """
+===== PILIHAN UKURAN =====    
+1. Personal 
+2. Reguler
+3. Large
+""")
+
+# Harga Sebelum Memilih Varian
+total_harga = 0
+
+# Pembeli Memilih Varian
+pizza_crust = int(input("Pilih Crust : "))
+pizza_ukuran = int(input(" pilih ukuran : "))
+
+# Program Menghitung jika memilih Crust Pan
+if pizza_crust == 1 :
+    pizza_crust = "pan"
+    # Jika ukuran personal
+    if pizza_ukuran == 1 :
+        pizza_ukuran = "Personal"
+        total_harga = 43_637
+    # jika ukuran reguler
+    elif pizza_ukuran == 2 :
+        pizza_ukuran = "Reguler"
+        total_harga = 100_910
+    # jika ukuran Large
+    elif pizza_ukuran == 3 :
+        pizza_ukuran = "Large"
+        total_harga = 132_728
+
+# program menghitung jika memilih curst StuffedCrust Cheese
+if pizza_crust == 2 :
+    pizza_crust = "StuffedCrust Cheese"
+    # jika ukuran personal
+    if pizza_ukuran == 1 :
+        pizza_ukuran = "Personal"
+        total_harga = 55_455
+    # jika ukuran reguler
+    elif pizza_ukuran == 2 : 
+        pizza_ukuran = "Reguler"
+        total_harga = 120_910
+    # jika ukuran large 
+    elif pizza_ukuran == 3 :
+        pizza_ukuran = "Large"
+        total_harga = 160_000
+
+# program menghitung jika memilih crust StuffedCrust sausage
+if pizza_crust == 3 :
+    pizza_crust = "StuffedCrust Sausage"
+    # jika ukuran personal
+    if pizza_ukuran == 1 :
+        pizza_ukuran = "Personal"
+        total_harga = 52_728
+    # jika ukuran reguler
+    elif pizza_ukuran == 2 : 
+        pizza_ukuran = "Reguler"
+        total_harga = 117_273 
+    # jika ukuran large
+    elif pizza_ukuran == 3 :
+        pizza_ukuran = "Large"
+        total_harga = 155_455
